@@ -1,1 +1,8 @@
 
+update Customers]
+set ContactName=' '
+where Country in ('China', 'USA')
+
+update [Products]
+Set Price=10,
+where Price >=20
